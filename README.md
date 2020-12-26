@@ -1,4 +1,4 @@
-<a href="\" target='_blank'>Let me oh</a>
+<a href="../etc" target='_blank'>Let me oh</a>
 
 <a href="/127.0.0.1:1234" target='_blank'>Let me yes</a>
 
