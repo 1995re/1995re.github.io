@@ -6,7 +6,7 @@
 ---
 <a href="/_home/sysrq.md" target='_blank' style="color:currentcolor">[3] SS</a>
 ---
-<a href="/_home/0:f13.xml" target='_blank' style="color:currentcolor">[4] poi</a>
+<a href="/_home/0:f13" target='_blank' style="color:currentcolor">[4] poi</a>
 ---
 <a href="/_home/whom.atx" target='_blank' style="color:currentcolor">[5] yeml</a>
 ---
