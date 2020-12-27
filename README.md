@@ -2,4 +2,4 @@
 ---
 <a href="/_home/█" target='_blank'>[2] Through</a>
 ---
-<a href="/_home/sysrq.html" target='_blank'>[3] SS</a>
+<a href="/_home/sysrq.md" target='_blank'>[3] SS</a>
