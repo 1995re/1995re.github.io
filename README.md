@@ -4,4 +4,4 @@
 ---
 <a href="/_home/sysrq.md" target='_blank'>[3] SS</a>
 ---
-<a href="/_home/f13.xml" target='_blank'>[3] poi</a>
+<a href="/_home/f13.xml" target='_blank'>[4] poi</a>
