@@ -1,4 +1,4 @@
-I'm rethinking my riddles lately in the middle of night. I like riddles, on of my thinking fruit.
+I'm rethinking my riddles lately in the middle of night. I like riddles, one of my thinking fruit.
 
 so you are in first floor and your friend already in the 22 floor,
 you are go up and your friends go to down in the same time,
