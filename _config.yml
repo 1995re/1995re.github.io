@@ -3,5 +3,6 @@ description: no
 theme: jekyll-theme-tactile
 
 ---
-permalink: /_home/
+layout: post
+title:  "Welcome to Jekyll!"
 ---
