@@ -3,6 +3,5 @@ description: no
 theme: jekyll-theme-tactile
 
 ---
-layout: post
-title:  "Welcome to Jekyll!"
+permalink: /_posts/
 ---
