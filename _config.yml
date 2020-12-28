@@ -1,3 +1,12 @@
 title: Thanks god, _confiq.yml was an exist
 description: no
 theme: jekyll-theme-tactile
+---
+layout: page
+title: "Being ugly in ugly worlds"
+permalink: /_home/
+---
+---
+layout: page
+title: "Riddles"
+permalink: /_home/
