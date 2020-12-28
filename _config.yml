@@ -2,6 +2,10 @@ title: Thanks god, _confiq.yml was an exist
 description: Notes
 theme: jekyll-theme-tactile
 
+kramdown:
+  html_to_native: true
+  toc_levels: true
+  
 ---
 permalink: /_posts/
 ---
