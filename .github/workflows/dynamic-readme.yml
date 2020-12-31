@@ -1,0 +1,12 @@
+name: "Dynamic Readme"
+
+env:
+  VS_WORKFLOW_TYPE: "dynamic-readme"
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - README.md
