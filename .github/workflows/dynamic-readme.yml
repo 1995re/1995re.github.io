@@ -15,12 +15,12 @@ jobs:
         uses: actions/checkout@main
 
       - name: "💾  Github Repository Metadata"
-        uses: bahasalien/action-repository-meta@main
+        uses: varunsridharan/action-repository-meta@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: "💫  Dynamic Template Render"
-        uses: bahasalien/action-dynamic-readme@main
+        uses: varunsridharan/action-dynamic-readme@main
         with:
           GLOBAL_TEMPLATE_REPOSITORY: bahasalien/bahasalien.github.io
           files: |
