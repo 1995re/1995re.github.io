@@ -1,12 +1,31 @@
-name: "Dynamic Readme"
-
-env:
-  VS_WORKFLOW_TYPE: "dynamic-readme"
+name: Dynamic Template
 
 on:
-  workflow_dispatch:
   push:
     branches:
       - main
-    paths:
-      - README.md
+  workflow_dispatch:
+
+jobs:
+  update_templates:
+    name: "Update Templates"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "📥  Fetching Repository Contents"
+        uses: actions/checkout@main
+
+      - name: "💾  Github Repository Metadata"
+        uses: bahasalien/action-repository-meta@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "💫  Dynamic Template Render"
+        uses: bahasalien/action-dynamic-readme@main
+        with:
+          GLOBAL_TEMPLATE_REPOSITORY: bahasalien/bahasalien.github.io
+          files: |
+            FILE.md
+            FILE2.md=output_filename.md
+            folder1/file.md=folder2/output.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
