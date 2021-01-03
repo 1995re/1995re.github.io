@@ -1,4 +1,4 @@
-Our blog can be approach.
+*Our blog can be approach.*
 
 ### Content
 
@@ -20,7 +20,7 @@ Index file was a `README.md`, markdown automatically translated file to HTML.
 |   |   └── []
 ├── _drafts/
 |   ├── [year-month-day-title].md
-    └── []
+|   └── []
 ├── _posts/
 |   ├── [year-month-day-title].md
 |   └── []
