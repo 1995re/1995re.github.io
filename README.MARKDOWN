@@ -24,8 +24,8 @@ Index file was a `README.md`, markdown automatically translated file to HTML.
 ├── _posts/
 |   ├── [year-month-day-title].md
 |   └── []
-├── README.md
-└── []
+├── []
+└── README.md
 ```
 
 ### License
