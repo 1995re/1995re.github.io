@@ -11,3 +11,5 @@
 [[5] Braude, E., “Software Engineering - An Object Oriented Perspective”, John Wiley and sons, 2001](https://www2.informatik.hu-berlin.de/~wwwcompsoft/intkoop/jcse/case_studies/encounter/EncounterSRS.html)
 ---
 [[6] Jekyll Cheat Sheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/)
+---
+[[7] Android Driver](https://developer.android.com/studio/command-line/adb)
