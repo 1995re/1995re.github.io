@@ -16,7 +16,8 @@ Index file was a `README.md`, markdown automatically translated file to HTML.
 ├── _assets/
 |   └── img/
 |   |   ├── [name-folder]/
-|   |   |    └── [name-file].jpg
+|   |   |    ├── [name-file].jpg
+|   |   |    └── []
 |   |   └── []
 ├── _drafts/
 |   ├── [year-month-day-title].md
