@@ -15,7 +15,7 @@ Index file was a `README.md`, markdown automatically translated file to HTML.
 |   |   └── dynamic-readme.yml
 ├── _assets/
 |   └── img/
-|   |   └── [name-folder]/
+|   |   ├── [name-folder]/
 |   |   |    └── [name-file].jpg
 |   |   └── []
 ├── _drafts/
