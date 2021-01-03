@@ -8,7 +8,7 @@ Mostly about random stuff I've been thinking important to keep, nonetheless fill
 
 Index file was a `README.md`, markdown automatically translated file to HTML.
 
-```
+```structure
 .
 ├── .github/
 |   └── workflows
@@ -30,7 +30,7 @@ Index file was a `README.md`, markdown automatically translated file to HTML.
 
 ### License
 
-```
+```license
             DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
                     Version 2, December 2004
 
