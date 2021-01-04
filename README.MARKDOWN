@@ -4,6 +4,17 @@
 
 Mostly about random stuff I've been thinking important to keep, nonetheless filled with an easy tutorial.
 
+### Feature
+ 
+We trying not using HTML in such a beatifully way, taking attention while your contributon has been arrive.
+ 
+|                   |                                                                                        |
+| -                 | -                                                                                      |
+| Image             | `<img src="https://raw.githubusercontent.com/.../{filename.jpg}" alt="{tag}">`         |
+| Audio             | Contributor needed!                                                                    |
+| Video             | Contributor needed!                                                                    |
+| Data/Iframe       | Contributor needed!                                                                    |
+
 ### Structure
 
 Index file was a `README.md`, markdown automatically translated file to HTML.
