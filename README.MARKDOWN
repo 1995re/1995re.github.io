@@ -6,7 +6,7 @@ Mostly about random stuff I've been thinking important to keep, nonetheless fill
 
 ### Feature
  
-We trying not using HTML in such a beatifully way, taking attention while your contributon has been arrive.
+We trying not using HTML in such a beautifully way, taking attention while your contribution has been arrive.
  
 |                   |                                                                                        |
 | -                 | -                                                                                      |
