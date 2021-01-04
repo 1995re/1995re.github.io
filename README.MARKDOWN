@@ -6,7 +6,7 @@ Mostly about random stuff I've been thinking important to keep, nonetheless fill
 
 ### Feature
  
-`_Posts` folder was a directory for writed article `{year}-{month}-{day}-{title-name}.md` with metadata :
+`_posts` folder was a directory for writed article `{year}-{month}-{day}-{title-name}.md` with metadata :
 
 ```
 ---
