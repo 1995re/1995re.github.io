@@ -46,7 +46,10 @@ We trying not using HTML in such a beautifully way, taking attention while your 
 |                   |                                                                                        |
 | -                 | -                                                                                      |
 | Image             | `<img src="https://raw.githubusercontent.com/.../{filename.jpg}" alt="{tag}">`         |
-| Audio             | Contributor needed!                                                                    |
+| Audio             | `<audio controls>`                                                                     |
+|                   | `<source src="https://raw.githubusercontent.com/.../untitled.mp3" type="audio/mpeg">`  |
+|                   | `Your browser does not support the audio element.`                                     |
+|                   | `</audio>`                                                                             |
 | Video             | Contributor needed!                                                                    |
 | Data/Iframe       | Contributor needed!                                                                    |
 
