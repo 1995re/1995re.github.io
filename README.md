@@ -15,3 +15,5 @@
 [[7] Android Driver](https://developer.android.com/studio/command-line/adb)
 ---
 [[8] PS Photo Filter](_posts/2021-01-03-vis.md)
+---
+[[9] Dual Core - Apex Predator (featuring Tribe One)](https://defconcommunications.bandcamp.com/album/def-con-26-the-official-soundtrack)
