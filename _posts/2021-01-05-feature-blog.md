@@ -1,5 +1,5 @@
 ---
-title:  "2021-01-05-test"
+title:  "2021-01-05-feature-blog"
 comments: true
 ---
 
