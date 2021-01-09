@@ -4,3 +4,4 @@
 _plugins/*
 
 *.MARKDOWN
+.bat
