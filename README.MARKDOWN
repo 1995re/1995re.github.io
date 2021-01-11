@@ -50,7 +50,10 @@ We trying not using HTML in such a beautifully way, taking attention while your 
 |                   | `<source src="https://raw.githubusercontent.com/.../{filename.mp3}" type="audio/mpeg">`|
 |                   | `Your browser does not support the audio element.`                                     |
 |                   | `</audio>`                                                                             |
-| Video             | Contributor needed!                                                                    |
+| Video             | `<video width="320" height="240" controls>`                                            |
+|                   | `<source src="https://raw.githubusercontent.com/.../{filename.mp4}" type="video/mp4">` |
+|                   | `Your browser does not support the video tag.`                                         |
+|                   | `</video>`                                                                             |
 | Data/Iframe       | Contributor needed!                                                                    |
 
 <marquee behavior="alternate" bgColor="black" style="border:solid" direction="right" scrollamount="1"><b>Markdown Lover's!</b></marquee>
