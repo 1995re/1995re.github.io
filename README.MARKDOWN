@@ -42,6 +42,8 @@ This part a script for `disqus.com` comment section.
 ```
  
 We trying not using HTML in such a beautifully way, taking attention while your contribution has been arrive.
+
+Page to Test : https://bahasalien.github.io/2021/01/05/feature-blog.html
  
 |                   |                                                                                        |
 | -                 | -                                                                                      |
@@ -50,7 +52,10 @@ We trying not using HTML in such a beautifully way, taking attention while your 
 |                   | `<source src="https://raw.githubusercontent.com/.../{filename.mp3}" type="audio/mpeg">`|
 |                   | `Your browser does not support the audio element.`                                     |
 |                   | `</audio>`                                                                             |
-| Video             | Contributor needed!                                                                    |
+| Video             | `<video controls>`                                                                     |
+|                   | `<source src="https://raw.githubusercontent.com/.../{filename.mp4}" type="video/mp4">` |
+|                   | `Your browser does not support the video tag.`                                         |
+|                   | `</video>`                                                                             |
 | Data/Iframe       | Contributor needed!                                                                    |
 
 <marquee behavior="alternate" bgColor="black" style="border:solid" direction="right" scrollamount="1"><b>Markdown Lover's!</b></marquee>

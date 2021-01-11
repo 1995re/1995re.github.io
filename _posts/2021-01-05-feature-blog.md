@@ -10,6 +10,13 @@ comments: true
 Your browser does not support the audio element.
 </audio>
 
+*Video*
+---
+<video controls>
+  <source src="https://raw.githubusercontent.com/bahasalien/bahasalien.github.io/main/data/vid/000032BoskoAndHoneyLt.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 *Data*
 ---
 <div id='table-container'></div>
