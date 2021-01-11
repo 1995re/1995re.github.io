@@ -6,7 +6,7 @@ comments: true
 *Audio*
 ---
 <audio controls>
-  <source src="https://raw.githubusercontent.com/bahasalien/bahasalien.github.io/main/folder2/untitled.mp3" type="audio/mpeg">
+  <source src="https://raw.githubusercontent.com/bahasalien/bahasalien.github.io/main/data/aud/untitled.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
 
