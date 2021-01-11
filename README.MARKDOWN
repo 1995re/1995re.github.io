@@ -52,7 +52,7 @@ Page to Test : https://bahasalien.github.io/2021/01/05/feature-blog.html
 |                   | `<source src="https://raw.githubusercontent.com/.../{filename.mp3}" type="audio/mpeg">`|
 |                   | `Your browser does not support the audio element.`                                     |
 |                   | `</audio>`                                                                             |
-| Video             | `<video width="320" height="240" controls>`                                            |
+| Video             | `<video controls>`                                                                     |
 |                   | `<source src="https://raw.githubusercontent.com/.../{filename.mp4}" type="video/mp4">` |
 |                   | `Your browser does not support the video tag.`                                         |
 |                   | `</video>`                                                                             |
