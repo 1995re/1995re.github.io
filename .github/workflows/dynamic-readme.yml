@@ -24,7 +24,6 @@ jobs:
         with:
           GLOBAL_TEMPLATE_REPOSITORY: bahasalien/bahasalien.github.io
           files: |
-            .md
-            folder1/file.md=folder2/.md
+
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
