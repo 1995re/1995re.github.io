@@ -1,5 +1,6 @@
 ---
-title:  "2021-01-05-feature-blog"
+title:  "05-January-2021"
+description: "Feature Blog"
 comments: true
 ---
 
