@@ -7,14 +7,14 @@ comments: true
 *Audio*
 ---
 <audio controls>
-  <source src="https://raw.githubusercontent.com/bahasalien/bahasalien.github.io/main/data/aud/untitled.mp3" type="audio/mpeg">
+  <source src="https://raw.githubusercontent.com/1995re/1995re.github.io/main/data/aud/untitled.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
 
 *Video*
 ---
 <video controls>
-  <source src="https://raw.githubusercontent.com/bahasalien/bahasalien.github.io/main/data/vid/000032BoskoAndHoneyLt.mp4" type="video/mp4">
+  <source src="https://raw.githubusercontent.com/1995re/1995re.github.io/main/data/vid/000032BoskoAndHoneyLt.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
