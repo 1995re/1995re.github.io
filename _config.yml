@@ -1,11 +1,13 @@
-url: bahasalien.github.io
+url: 1995re.github.io
 disqus_shortname: bahasalien
 
-title: Thanks god, _confiq.yml was an exist
-description: Notes
+title: +
+description: 📑
 theme: jekyll-theme-tactile
 
 # This will require each of these plugins automatically.
 plugins:
+  - jemoji
+  - jekyll-redirect-from
   - jekyll-gist
   - jekyll-import
