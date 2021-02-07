@@ -4,9 +4,9 @@ description: "Git Remote 1-line Push"
 comments: true
 ---
 
-<img src="https://raw.githubusercontent.com/1995re/1995re.github.io/main/_assets/img/git-remote/1.jpg" alt="1">
+<img src="https://raw.githubusercontent.com/1995re/1995re.github.io/main/_assets/img/git-remote/1.png" alt="1">
 
-<img src="https://raw.githubusercontent.com/1995re/1995re.github.io/main/_assets/img/git-remote/2.jpg" alt="2">
+<img src="https://raw.githubusercontent.com/1995re/1995re.github.io/main/_assets/img/git-remote/2.png" alt="2">
 
 wow lazy..
 
