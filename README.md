@@ -22,3 +22,5 @@
 [[10] Feature Blog](_posts/2021-01-05-feature-blog.md)
 ---
 [[11] Wanna be expert on VIM](_posts/2021-01-10-expert-vim.md)
+---
+[[12] Git Remote 1-line Push](_posts/2021-02-06-git-remote.md)
