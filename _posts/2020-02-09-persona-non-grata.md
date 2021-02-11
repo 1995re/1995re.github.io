@@ -6,7 +6,7 @@ comments: true
 
 Hukum variabel windows saya namun selalu lupa.
 
-| variable        | head two                                                          |
+| Variable        | Value                                                             |
 |:----------------|:------------------------------------------------------------------|
 | path            |;C:\Users\user\AppData\Roaming\npm;C:\Python31;C:\Python31\scripts |
 | python          |;C:\Python31\python.exe                                            |
