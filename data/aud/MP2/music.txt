@@ -1,0 +1,308 @@
+// =============================================================
+// Begin real soundtracks
+// =============================================================
+
+#define	MUSIC_FADETIME		1.0
+#define	AMBIENT_FADETIME	1.0
+#define MUSIC_VOLUME		1.0
+#define NOISETRACK_VOLUME	0.5
+#define NOISETRACK_VOLUME_MEDIUM 0.75
+#define NOISETRACK_VOLUME_HIGH	1.0
+
+[max_payne]			//  Max Payne Theme
+Filename 	= "files\Max_Payne_Theme.wav";
+FadeInTime	= MUSIC_FADETIME ;
+Volume		= MUSIC_VOLUME;
+Looping		= true;
+
+[late_goodbye]			// Late Goodbye, vocals
+Filename 	= "files\Music_Late_Goodbye.wav";
+FadeInTime	= MUSIC_FADETIME ;
+Volume		= MUSIC_VOLUME;
+Looping		= true;
+
+[02_Corruption]		//  Max's Duty Corrupted - Winterson
+Filename 	= "files\Music_Corruption.wav";
+FadeInTime	= MUSIC_FADETIME ;
+Volume		= MUSIC_VOLUME;
+Looping		= true;
+
+[03_Passion]		//  Max's Passion - Mona
+Filename 	= "files\Music_Passion.wav";
+FadeInTime	= MUSIC_FADETIME ;
+Volume		= MUSIC_VOLUME;
+Looping		= true;
+
+[04_Choice]			//  Max's Choice - Duty vs. Passion
+Filename 	= "files\Music_Choice.wav";
+FadeInTime	= MUSIC_FADETIME ;
+Volume		= MUSIC_VOLUME;
+Looping		= true;
+
+[05_Consequences]	//  Max Hurt - Danger and Consequences
+Filename 	= "files\Music_Consequences.wav";
+FadeInTime	= MUSIC_FADETIME ;
+Volume		= MUSIC_VOLUME;
+Looping		= true;
+
+[06_Mona]			//  Mona - The Professional
+Filename 	= "files\Music_Mona.wav";
+FadeInTime	= MUSIC_FADETIME ;
+Volume		= MUSIC_VOLUME;
+Looping		= true;
+
+[07_Vlad]			//  Vladimir - The Enemy, Betrayal, The Inner Circle
+Filename 	= "files\Music_Vlad.wav";
+FadeInTime	= MUSIC_FADETIME ;
+Volume		= MUSIC_VOLUME;
+Looping		= true;
+
+[08_Nightmare]		//  Nightmare
+Filename 	= "files\Music_Nightmare.wav";
+FadeInTime	= MUSIC_FADETIME ;
+Volume		= MUSIC_VOLUME;
+Looping		= true;
+
+[10_Address_Unknown] //  AU - The funhouse remix
+Filename 	= "files\Music_Funhouse.wav";
+FadeInTime	= MUSIC_FADETIME ;
+Volume		= MUSIC_VOLUME;
+Looping		= true;
+
+
+//================ Action cues
+
+[12_Cleaners] 		//  Cleaners - action cue
+Filename 	= "files\12_cleaners.wav";
+FadeInTime	= MUSIC_FADETIME ;
+Volume		= MUSIC_VOLUME;
+Looping		= false;
+
+[13_Mobsters] 		//  Mobsters - action cue
+Filename 	= "files\13_mobsters.wav";
+FadeInTime	= MUSIC_FADETIME ;
+Volume		= MUSIC_VOLUME;
+Looping		= false;
+
+//=============== Player death music
+
+[player_death_music]			//  Player dies
+Filename 	= "..\sounds\misc\Player_Death.wav";
+FadeInTime	= 0.02;
+Volume		= 1.0;
+Looping		= false;
+
+// =============================================================
+// Noise tracks
+// =============================================================
+
+[eerie_basement]		//  eerie basement room tone with distant ghost breaths and whispering
+Filename 	= "files\noisetracks\eerie_basement.wav";
+FadeInTime	= 5.0;
+Volume		= NOISETRACK_VOLUME_HIGH;
+Looping		= true;
+
+
+[apartment_building]
+Filename	= "files\noisetracks\apartment_building.wav";
+FadeInTime	= AMBIENT_FADETIME ;
+Volume		= NOISETRACK_VOLUME;
+Looping		= true;
+
+[city_rainy_distant_thunder]
+Filename	= "files\noisetracks\city_rainy_distant_thunder.wav";
+FadeInTime	= AMBIENT_FADETIME ;
+Volume		= NOISETRACK_VOLUME;
+Looping		= true;
+
+[city_rainy]
+Filename	= "files\noisetracks\city_rainy.wav";
+FadeInTime	= AMBIENT_FADETIME ;
+Volume		= NOISETRACK_VOLUME;
+Looping		= true;
+
+[hospital_ambience]
+Filename	= "files\noisetracks\hospital_ambience.wav";
+FadeInTime	= AMBIENT_FADETIME ;
+Volume		= NOISETRACK_VOLUME;
+Looping		= true;
+
+[address_unknown]
+Filename	= "files\noisetracks\address_unknown.wav";
+FadeInTime	= AMBIENT_FADETIME ;
+Volume		= NOISETRACK_VOLUME;
+Looping		= true;
+
+[flaming_inferno]
+Filename	= "files\noisetracks\flaming_inferno.wav";
+FadeInTime	= AMBIENT_FADETIME ;
+Volume		= NOISETRACK_VOLUME;
+Looping		= true;
+
+[police_station]
+Filename 	= "files\noisetracks\police_station.wav";
+FadeInTime	= 1.0;
+Volume		= NOISETRACK_VOLUME;
+Looping		= true;
+
+[rain_light]
+Filename 	= "files\noisetracks\rain_light.wav";
+FadeInTime	= 1.0;
+Volume		= NOISETRACK_VOLUME;
+Looping		= true;
+
+// reduced volume as it felt way too loud in const site and cond b
+[rain_indoors]
+Filename 	= "files\noisetracks\rain_indoors.wav";
+FadeInTime	= 1.0;
+Volume		= 0.40;
+Looping		= true;
+
+[rain_indoors_instant]
+Filename 	= "files\noisetracks\rain_indoors.wav";
+FadeInTime	= 0.0;
+Volume		= NOISETRACK_VOLUME;
+Looping		= true;
+
+[rain_medium]
+Filename 	= "files\noisetracks\rain_medium.wav";
+FadeInTime	= 1.0;
+Volume		= NOISETRACK_VOLUME;
+Looping		= true;
+
+[rain_heavy]
+Filename 	= "files\noisetracks\rain_heavy.wav";
+FadeInTime	= 1.0;
+Volume		= NOISETRACK_VOLUME_MEDIUM;
+Looping		= true;
+
+[rain_heavy_windy]
+Filename 	= "files\noisetracks\rain_heavy_windy.wav";
+FadeInTime	= 1.0;
+Volume		= NOISETRACK_VOLUME_MEDIUM;
+Looping		= true;
+
+[rain_heavy_windy_instant]
+Filename 	= "files\noisetracks\rain_heavy_windy.wav";
+FadeInTime	= 0.0;
+Volume		= NOISETRACK_VOLUME_MEDIUM;
+Looping		= true;
+
+// reduced volume as it felt way too loud in warehouse
+[rain_on_roof]
+Filename 	= "files\noisetracks\rain_on_roof.wav";
+FadeInTime	= 1.0;
+Volume		= 0.4;
+Looping		= true;
+
+[rain_on_roof_instant]
+Filename 	= "files\noisetracks\rain_on_roof.wav";
+FadeInTime	= 0.0;
+Volume		= 0.4;
+Looping		= true;
+
+[warehouse_inside_rain]
+Filename 	= "files\noisetracks\warehouse_inside_rain.wav";
+FadeInTime	= 1.0;
+Volume		= NOISETRACK_VOLUME;
+Looping		= true;
+
+[none]
+Filename 	= "files\empty.wav";
+FadeInTime	= 1.0;
+Volume		= NOISETRACK_VOLUME;
+Looping		= false;
+
+// =============================================================
+// Music variations, mainly for GN use
+// =============================================================
+
+[Var_CaptainBBB_Instrumental]
+Filename	= "files\Var_CaptainBBB_Instrumental.wav";
+FadeInTime	= MUSIC_FADETIME ;
+Volume		= MUSIC_VOLUME;
+Looping		= true;
+
+[Var_Choice_cembalo]
+Filename	= "files\Var_Choice_cembalo.wav";
+FadeInTime	= MUSIC_FADETIME ;
+Volume		= MUSIC_VOLUME;
+Looping		= true;
+
+[Var_Choice_oboe]
+Filename	= "files\Var_Choice_oboe.wav";
+FadeInTime	= MUSIC_FADETIME ;
+Volume		= MUSIC_VOLUME;
+Looping		= true;
+
+[Var_Corruption_cello]
+Filename	= "files\Var_Corruption_cello.wav";
+FadeInTime	= MUSIC_FADETIME ;
+Volume		= MUSIC_VOLUME;
+Looping		= true;
+
+[Var_Funhouse_theme]
+Filename	= "files\Var_Funhouse_theme.wav";
+FadeInTime	= MUSIC_FADETIME ;
+Volume		= MUSIC_VOLUME;
+Looping		= true;
+
+[Var_Max_Payne_cello_base]
+Filename	= "files\Var_Max_Payne_cello_base.wav";
+FadeInTime	= MUSIC_FADETIME ;
+Volume		= MUSIC_VOLUME;
+Looping		= true;
+
+[Var_Max_Payne_cello_melody]
+Filename	= "files\Var_Max_Payne_cello_melody.wav";
+FadeInTime	= MUSIC_FADETIME ;
+Volume		= MUSIC_VOLUME;
+Looping		= true;
+
+[Var_Max_Payne_end_violin]
+Filename	= "files\Var_Max_Payne_end_violin.wav";
+FadeInTime	= MUSIC_FADETIME ;
+Volume		= MUSIC_VOLUME;
+Looping		= true;
+
+[Var_Max_Payne_violin_section]
+Filename	= "files\Var_Max_Payne_violin_section.wav";
+FadeInTime	= MUSIC_FADETIME ;
+Volume		= MUSIC_VOLUME;
+Looping		= true;
+
+[Var_Mona_theme]
+Filename	= "files\Var_Mona_theme.wav";
+FadeInTime	= MUSIC_FADETIME ;
+Volume		= MUSIC_VOLUME;
+Looping		= true;
+
+[Var_Mona_theme_guitar]
+Filename	= "files\Var_Mona_theme_guitar.wav";
+FadeInTime	= MUSIC_FADETIME ;
+Volume		= MUSIC_VOLUME;
+Looping		= true;
+
+[Var_Nightmare_theme]
+Filename	= "files\Var_Nightmare_theme.wav";
+FadeInTime	= MUSIC_FADETIME ;
+Volume		= MUSIC_VOLUME;
+Looping		= true;
+
+[Var_Passion_oboe_melody]
+Filename	= "files\Var_Passion_oboe_melody.wav";
+FadeInTime	= MUSIC_FADETIME ;
+Volume		= MUSIC_VOLUME;
+Looping		= true;
+
+[Var_Passion_strings]
+Filename	= "files\Var_Passion_strings.wav";
+FadeInTime	= MUSIC_FADETIME ;
+Volume		= MUSIC_VOLUME;
+Looping		= true;
+
+[Var_Vlad_melody]
+Filename	= "files\Var_Vlad_melody.wav";
+FadeInTime	= MUSIC_FADETIME ;
+Volume		= MUSIC_VOLUME;
+Looping		= true;
