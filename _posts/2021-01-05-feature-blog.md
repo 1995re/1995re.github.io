@@ -7,7 +7,7 @@ comments: true
 *Audio*
 ---
 <audio controls>
-  <source src="https://raw.githubusercontent.com/1995re/1995re.github.io/main/data/aud/MP2/files/Music_Mona.wav" type="audio/mpeg">
+  <source src="https://raw.githubusercontent.com/1995re/1995re.github.io/main/data/aud/MP2/files/Music_Mona.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio>
 ---
