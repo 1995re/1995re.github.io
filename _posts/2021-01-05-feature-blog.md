@@ -7,6 +7,11 @@ comments: true
 *Audio*
 ---
 <audio controls>
+  <source src="https://raw.githubusercontent.com/1995re/1995re.github.io/main/data/aud/MP2/files/Music_Mona.wav" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+---
+<audio controls>
   <source src="https://raw.githubusercontent.com/1995re/1995re.github.io/main/data/aud/untitled.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
@@ -17,36 +22,6 @@ Your browser does not support the audio element.
   <source src="https://raw.githubusercontent.com/1995re/1995re.github.io/main/data/vid/000032BoskoAndHoneyLt.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-
-*Data*
----
-<div id='table-container'></div>
-
-<script type="text/javascript" src="https://raw.githubusercontent.com/derekeder/csv-to-html-table/master/js/jquery.min.js"></script>
-<script type="text/javascript" src="https://raw.githubusercontent.com/derekeder/csv-to-html-table/master/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="https://raw.githubusercontent.com/derekeder/csv-to-html-table/master/js/jquery.csv.min.js"></script>
-<script type="text/javascript" src="https://raw.githubusercontent.com/derekeder/csv-to-html-table/master/js/jquery.dataTables.min.js"></script>
-<script type="text/javascript" src="https://raw.githubusercontent.com/derekeder/csv-to-html-table/master/js/dataTables.bootstrap.js"></script>
-<script type="text/javascript" src="https://raw.githubusercontent.com/derekeder/csv-to-html-table/master/js/csv_to_html_table.js"></script>
-
-<script>
-
-  //my custom function that creates a hyperlink
-  function format_link(link){
-    if (link)
-      return "<a href='" + link + "' target='_blank'>" + link + "</a>";
-    else
-      return "";
-  }
-
-  //initializing the table
-  CsvToHtmlTable.init({
-    csv_path: '../data/testdata.csv', 
-    element: 'table-container', 
-    allow_download: false,
-    datatables_options: {"paging": false},
-  });
-</script>
 
 <div id="disqus_thread"></div>
 <script>
