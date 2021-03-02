@@ -26,3 +26,5 @@
 [[12] Git Remote 1-line Push](_posts/2021-02-06-git-remote.md)
 ---
 [[13] Persona Non Grata](_posts/2021-02-09-persona-non-grata.md)
+---
+[[14] Routing Linux](_posts/2021-03-02-routing-linux.md)
