@@ -7,7 +7,7 @@
 ---
 [[3] Suaka](_posts/2020-12-28-suaka.md)
 ---
-[[4] Rhythm Of Live](https://www.youtube.com/watch?v=3x1ryJxlEDI)
+[[4] Rhythm Of Live](https://www.youtube.com/watch?v=x1ryJxlEDI)
 --
 [[5] Braude, E., “Software Engineering - An Object Oriented Perspective”, John Wiley and sons, 2001](https://www2.informatik.hu-berlin.de/~wwwcompsoft/intkoop/jcse/case_studies/encounter/EncounterSRS.html)
 ---
