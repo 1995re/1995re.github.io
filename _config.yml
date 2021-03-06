@@ -9,6 +9,7 @@ theme: jekyll-theme-tactile
 plugins:
   - jemoji
   - jekyll-redirect-from
+  - jekyll-toc
   - jekyll-feed
   - jekyll-gist
   - jekyll-import
