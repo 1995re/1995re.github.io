@@ -118,7 +118,7 @@ Iptables –X
 # service iptables start/stop/restart --> jika ingin dipergunakan.
 
 ---
-edited: ["10-March-2021"]()
+edited: ["10-March-2021"](https://github.com/1995re/1995re.github.io/pull/1)
 ---
 
 <div id="disqus_thread"></div>
