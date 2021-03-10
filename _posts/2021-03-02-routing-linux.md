@@ -13,7 +13,7 @@ Original post from my first blog : [Routing Linux](http://cyber-copas.blogspot.c
 Setting Routing dengan Linux PC Router dengan konfigurasi Ip_forwarding, dan NAT+MASQUERADE
 Installasi ini dilakukan pada distro linux redhat dan fedora core (LINUX TEXT).
 
-1. Sebelum Setting mintalah IP publik ke ISP lengkap dengan netmask, broadcast dan dns-nya. Kemudian tentukan juga IP Lokal yang akan digunakan pada komputer client. Misal :
+Sebelum Setting mintalah IP publik ke ISP lengkap dengan netmask, broadcast dan dns-nya. Kemudian tentukan juga IP Lokal yang akan digunakan pada komputer client. Misal :
 
 (eth0)
 IP : 192.168.0.2
@@ -34,7 +34,7 @@ ingan terlebih dulu login ke username sebagai ROOT.
 - Untuk melakukan perubahan tekan tomboll (insert)
 - Untuk menyimpan perubahan tekan escape : wq (write quit).
 
-2. Settinglah IP pada ethernet-0.
+Settinglah IP pada ethernet-0.
 # vi /etc/sysconfig/network-scripts/ifcfg-eth0
 ip static
 DEVICE=eth0
@@ -50,7 +50,7 @@ DEVICE=eth0
 BOOTPROTO=dhcp
 ONBOOT=yes
 
-2. Settinglah IP MGW dan HostName, serta DNS Resolver
+Settinglah IP MGW dan HostName, serta DNS Resolver
 # vi /etc/sysconfig/network
 NETWORKING=yes
 HOSTNAME=router
@@ -61,7 +61,7 @@ nameserver 202.134.0.155
 nameserver 202.134.2.5
 
 
-3. Settinglah IP pada ethernet-1
+Settinglah IP pada ethernet-1
 # vi /etc/sysconfig/network-scripts/ifcfg-eth1
 DEVICE=eth1
 BOOTPROTO=static
@@ -78,7 +78,7 @@ Dan untuk melihat IP masing-masing ethernet cobalah command berikut :
 # ifconfig|more
 
 
-5. Setting IP Forwarding, agar paket dari jaringan client dapat berjalan ke jaringan di luarnya melalui gateway.
+Setting IP Forwarding, agar paket dari jaringan client dapat berjalan ke jaringan di luarnya melalui gateway.
 # vi /etc/sysctl.conf
 rubah net.ipv4.ip_forward = 0 menjadi net.ipv4.ip_forward = 1
 
@@ -91,7 +91,7 @@ Sekarang lakukan testing dengan ping ke DNS nya:
 # ping 202.134.0.155 atau 202.134.2.5
 Jika hasilnya Reply berarti settingnya sudah berhasil dan tinggal selangkah lagi.
 
-6. Agar client atau jaringan lokal (LAN) yang terhubung dengan sistem linux anda (ke eth1) dapat mengakses internet, maka settinglah MGW dengan menggunakan source NAT IPTables dan Forwarding.
+Agar client atau jaringan lokal (LAN) yang terhubung dengan sistem linux anda (ke eth1) dapat mengakses internet, maka settinglah MGW dengan menggunakan source NAT IPTables dan Forwarding.
 # /etc/init.d/iptables stop
 # vi /etc/rc.d/rc.nat
 
@@ -116,3 +116,27 @@ Iptables –X
 # iptables –L –t nat
 # Service iptables save --> untuk simpan iptables yang kita buat.
 # service iptables start/stop/restart --> jika ingin dipergunakan.
+
+---
+edited: ["10-March-2021"](https://github.com/1995re/1995re.github.io/pull/1)
+---
+
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://bahasalien.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
