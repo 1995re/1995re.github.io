@@ -19,7 +19,7 @@
 ---
 [[9] Dual Core - Apex Predator (featuring Tribe One)](https://defconcommunications.bandcamp.com/album/def-con-26-the-official-soundtrack)
 ---
-[[10] Feature Blog](_posts/2021-01-05-feature-blog.md)
+[[10]Test Feature Blog](_posts/2021-01-05-test-feature-blog.md)
 ---
 [[11] Wanna be expert on VIM](_posts/2021-01-10-expert-vim.md)
 ---
