@@ -43,7 +43,7 @@ This part a script for `disqus.com` comment section.
  
 We trying not using HTML in such a beautifully way, taking attention while your contribution has been arrive.
 
-Page to Test : https://1995re.github.io/2021/01/05/feature-blog.html
+Page to Test : https://1995re.github.io/2021/01/05/test-feature-blog.html
  
 |                   |                                                                                        |
 | -                 | -                                                                                      |
