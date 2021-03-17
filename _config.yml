@@ -8,6 +8,7 @@ theme: jekyll-theme-tactile
 # This will require each of these plugins automatically.
 plugins:
   - jemoji
+  - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-toc
   - jekyll-feed
