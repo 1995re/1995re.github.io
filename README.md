@@ -9,7 +9,7 @@
 ---
 [[4] Rhythm Of Live](https://www.youtube.com/watch?v=x1ryJxlEDI)
 --
-[[5] Braude, E., “Software Engineering - An Object Oriented Perspective”, John Wiley and sons, 2001](https://www2.informatik.hu-berlin.de/~wwwcompsoft/intkoop/jcse/case_studies/encounter/EncounterSRS.html)
+[[5] Braude, E., “Software Engineering - An Object Oriented Perspective”](https://www2.informatik.hu-berlin.de/~wwwcompsoft/intkoop/jcse/case_studies/encounter/EncounterSRS.html)
 ---
 [[6] Jekyll Cheat Sheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/)
 ---
