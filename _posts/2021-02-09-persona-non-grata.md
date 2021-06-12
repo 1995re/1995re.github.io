@@ -11,6 +11,8 @@ Hukum variabel windows saya namun selalu lupa.
 | path            |;C:\Users\user\AppData\Roaming\npm;C:\Python31;C:\Python31\scripts |
 | python          |;C:\Python31\python.exe                                            |
 
+Variable pada kolom 'python' tidak harus menggunakan baris baru, jika pada kolom 'path' terisi value.
+
 <div id="disqus_thread"></div>
 <script>
     /**
