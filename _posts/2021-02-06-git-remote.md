@@ -8,9 +8,11 @@ comments: true
 
 <img src="https://raw.githubusercontent.com/1995re/1995re.github.io/main/_assets/img/git-remote/2.jpg" alt="2">
 
+Using PGP has been tested yet. (Coming Update)
+
 ---
 
-*Update: 08-March-2021*
+*Update: 02-July-2021*
 
 Git-2.27.0-32-bit
 
